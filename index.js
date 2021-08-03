@@ -72,7 +72,7 @@ function processImage() {
     dragCrop: false,
     cropBoxResizable: true,
     checkOrientation: true,
-    cropBoxResizable: false,
+    //cropBoxResizable: false,
     // dragMode: "move",
     // minCropBoxWidth: 100,
     // minCropBoxHeight: 156,
