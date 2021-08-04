@@ -131,7 +131,7 @@ function download() {
     .toDataURL("image/png")
     .replace("image/png", "image/octet-stream");
   download.setAttribute("href", image);
-  download.setAttribute("download", "poster.png");
+  download.setAttribute("download", "poster.jpg");
 }
 
 // download button disaplay
