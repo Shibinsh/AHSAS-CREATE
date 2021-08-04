@@ -145,7 +145,7 @@ $(function () {
 
  // poster create button hide
 
- const toggleBtn = document.querySelector("#poster");
+ const toggleBtn = document.querySelector("#cropButton");
  const divList = document.querySelector("#poster");
  
  // action to be taken when clicked on hide list button
@@ -164,7 +164,7 @@ $(function () {
 
 
  $(document).ready(function () {
-  $("#poster").click(function () {
+  $("#cropButton").click(function () {
     $("#poster1").hide();
   });
 });
