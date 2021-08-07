@@ -57,7 +57,7 @@ function processImage() {
     // maxContainerWidth   : 200,
     // maxCanvasWidth      : 200,
     // maxCanvasHeight     : 200,
-    aspectRatio:  4.625/6.25,  
+    aspectRatio:  10.677083333/10.677083333,  
     autoCropArea: 1,
     background: true,
     movable: false,
@@ -79,8 +79,8 @@ function processImage() {
     viewMode: 2,
 
     data: {
-      width: 444,
-      height:600 ,
+      width: 1025,
+      height:1025,
     },
     crop(event) {
       console.log(
@@ -108,10 +108,10 @@ function draw() {
   // Draw slice
   ctx.drawImage(
     document.getElementById("croppedImage"),
-    456,
-    1000,
-    444,
-    600
+    215,
+    469,
+    1025,
+    1025
     // 900,
     // 0,
     // 1500,
