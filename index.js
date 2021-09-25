@@ -104,6 +104,9 @@ function cropImage() {
 function draw() {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
+  ctx.font = "bold 130px Manjari";
+  ctx.textAlign = "center";
+  ctx.fillStyle = '#FF3C06';
 
   // Draw slice
   ctx.drawImage(
@@ -120,6 +123,7 @@ function draw() {
 
   // Draw frame
   ctx.drawImage(document.getElementById("frame"), 0, 0);
+  ctx.fillText(document.getElementById("username").value, 725, 1630);
 }
 
 // downlad function
